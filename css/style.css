@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Unbundeed";
+    src: url('../fonts/Unbounded-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('../fonts/Poppins-Medium.ttf') format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+* { 
+    margin: 0px; 
+    padding: 0px; 
+}
+
+body{ 
+    background-color: #05040a; 
+    color: #FFF; 
+}
+
+header img{
+    display: block;
+    margin: 75px 0 0 360px
+}
+
+a{ 
+    color: #FFF; 
+    font-family: "Poppins", sans-serif; 
+    font-size: 20px; 
+    text-decoration: none; 
+    background-color: #9b46ff;
+    width: 340px;
+    height: 66px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 35px;
+    margin: 40px auto;
+}
+
+a:hover{
+    background-color: #bf93f1;
+  
+}
+
+p{ 
+    font-family: "Poppins", sans-serif; 
+    font-size: 20px;
+    text-align: center;
+     margin-top: 40px;
+}
+
+section img{
+    display: block;
+    margin: 0px auto;
+    width: 800px;
+    height: 580px;
+}
+
+h1{ 
+    font-family: "Unbundeed", sans-serif;
+     font-size: 55px;
+     text-align: center;
+     margin-top: 40px;
+    }
+
+h1 span{ 
+    color: #9b46ff; 
+}
+
+@media (max-width: 768px) {
+    header img {
+        margin: 65px 0 0 60px;
+    }
+    p {
+        width: 648px;
+    }
+}
+
+@media (max-width: 375px) {
+    header img {
+        margin: 32px 0 0 16px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+        width: 340px;
+    }
+    section img {
+        width: 340px;
+        height: 230px;
+    }
+}
