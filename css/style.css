@@ -1,3 +1,4 @@
+/* Definindo fonts*/
 @font-face {
     font-family: "Unbundeed";
     src: url('../fonts/Unbounded-Bold.ttf') format('truetype');
@@ -14,10 +15,13 @@
     font-display: swap;
 }
 
+/* Resert */
 * { 
     margin: 0px; 
     padding: 0px; 
 }
+
+/* Estilo desktop */
 
 body{ 
     background-color: #05040a; 
@@ -73,6 +77,8 @@ h1{
 h1 span{ 
     color: #9b46ff; 
 }
+
+/* Estilo Mobile */
 
 @media (max-width: 768px) {
     header img {
